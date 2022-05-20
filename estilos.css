@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/*RECETAS*/
+
+.PRECON{
+  height: 900px;
+  width: 800px;
+  margin: auto;
+}
+
+.PREPA{
+  margin-top: 30px;
+}
+
+.in{
+  width: 800px;
+  height: 300px;
+  margin: auto;
+
+}
+
+h2.INGREDIENTES{
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: monospace;
+}
+
+.IMAGENES{
+  background-repeat: no-repeat;
+  width: 600PX;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 820px;
+  background:center;
+}
+
+h1.reseta{
+  font-size: 50px;
+  text-align: center;
+  color: #BDAE1C;
+  margin-top: 40px;
+  font-style: oblique;
+  text-decoration-line: underline;
+}
+
+
+.macarrones{
+  background-image: url(img/MACARRONESFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.almeja{
+  background-image: url(img/ALMEJASFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.tortilli{
+  background-image: url(img/TORTILLAFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.sana{
+  background-image: url(img/LASANAFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.costilles{
+  background-image: url(img/COSTILLASFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.sopita{
+  background-image: url(img/SOPAFONDO.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.recetas{
+  background-image: url(img/RECERECE.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#contrece{
+  height: 1000px;
+  width: 1500px;
+  margin:0 auto;
+}
+
+h2{
+  text-align: center;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 160px;
+  color: #BDAE1C;
+}
+
+.receta{
+  height: 300px;
+  width: 350px;
+  background-color: black;
+  float: left;
+  margin: 100px;
+  margin-left: 200px;
+}
+
+.receta.macarrones{
+  background-image: url(img/MACARRONES.jpeg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+.receta.almejas{
+  background-image: url(img/ALMEJAS.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+.receta.tortilla{
+  background-image: url(img/TORTILLA.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+.receta.lasania{
+  background-image: url(img/LALASANA.jpeg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+.receta.costillas{
+  background-image: url(img/COSTILLAS.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+.receta.sopa{
+  background-image: url(img/GALETS.jpeg);
+  background-size: cover;
+  width: 350px;
+  height: 150px;
+}
+
+/*CONTACTO*/
+
+.CONTACTO{
+  background-image: url(img/WEB.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.cont{
+  height: 250px;
+  width: 600px;
+  background-color: #463B14;
+  margin: 0 auto;
+  margin-top: 100px;
+  opacity: 90%;
+}
+
+/*NOSOTROS*/
+
+.nusaltres{
+  font-size: 40px;
+  padding: 0 auto;
+  color:
+}
+
+.PRINCIPAL{
+  background-image: url(img/FONDOWEB3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TEXTONOSOTROS{
+  height: 300px;
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+
+.estrella{
+  width: 270px;
+  position: absolute;
+  margin-left: 1000px;
+  position: relative;
+}
+
+p{
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+  padding-top: 50px;
+  color: #BDAE1C;
+}
+
+h1.ESLOGAN{
+  text-align: center;
+  margin-top:150px;
+  color: #BDAE1C;
+  font-size: 45px;
+  position: relative;
+}
+
+.NOSOTROS{
+  background-image: url(img/imagen.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body{
+  background-color: SILVER;
+}
+
+a{
+  font-family: 'Cantata One', serif;
+  font-size: 17px;
+}
+
+
+
+li a.active, li a:hover{
+  opacity: 50%;
+}
+
+nav{
+  background-image: url(img/MIKASIMG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+
+
+ul{
+  list-style-type: none;
+}
+
+.logo{
+  width: 250px;
+  background-image: url(img/LOGO.png);
+  margin-left: 50px;
+  margin-top: 50PX;
+}
+
+ul li{
+  margin-right: 145px;
+  margin-top: -100px;
+}
+
+ul li a{
+  text-decoration: none;
+  display:block;
+  float:right;
+  width: 10%;
+  color: #BDAE1C;
+  padding-top: 60px;
+}
+
+.clear{
+  clear: inherit;
+}
+/*FOOTER*/
+#footer{
+  height:100px;
+  width: 100%;
+  margin-bottom: 0 auto;
+  background-image: url(img/MIKASIMG.jpg);
+  min-height: 100%; position: relative;
+  margin-top: 300px;
+}
+
+
+/*slider*/
+.slider{
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 50px;
+
+}
+.slider ul{
+  display: flex;
+  padding:0;
+  width: 400%;
+  animation:cambio 20s infinite;
+  animation-direction: alternate;
+
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+
+
+}
+.slider img{
+  width:100%;
+background-size: cover;
+}
+@keyframes cambio {
+  0%{margin-left:0; }
+  20%{margin-left:0; }
+
+  25%{margin-left:-100%; }
+  45%{margin-left:-100%; }
+
+  50%{margin-left:-200%; }
+  70%{margin-left:-200%; }
+
+  75%{margin-left:-300%; }
+  100%{margin-left:-300%; }
+}
+.mobile{
+  display: none;
+}
+
+
+/* MENU MOVIL */
+
+@media only screen and (max-width:470px){
+
+  /* INICIO*/
+
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    margin:20px;
+  }
+
+  label:hover{
+    background: #BDAE1C;
+  }
+
+  input:checked ~ label {
+    background: #BDAE1C;
+  }
+
+  nav{
+    background-image: url(img/MIKASIMG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  nav.ordenador{
+    display: none;
+  }
+
+  nav.mobile{
+    display: block;
+  }
+
+  input:checked  ~ ul{
+    display:block;
+  }
+
+  input {
+    display: none;
+  }
+
+  .mobile ul li:hover {
+    filter: brightness(80%);
+  }
+
+  .mobile ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+  }
+
+  .mobile ul{
+    display: none;
+  }
+
+
+
+  a{
+    font-family: 'Cantata One', serif;
+    font-size: 12px;
+  }
+
+  .mobile ul li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+
+  .slider{
+    width: 150px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .cont{
+    height: 150px;
+    width: 300px;
+    background-color: #463B14;
+    margin: 0 auto;
+    margin-top: 200px;
+    opacity: 90%;
+  }
+
+  .nusaltres{
+    font-size: 17px;
+    padding: 0 auto;
+    color:
+  }
+
+  .TEXTONOSOTROS{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  h1.ESLOGAN{
+    text-align: center;
+    margin-top:190px;
+    color: #BDAE1C;
+    font-size: 30px;
+    position: relative;
+  }
+
+  p{
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: #BDAE1C;
+  }
+
+  .estrella{
+    width: 170px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  /*recetas*/
+
+  h2{
+    text-align: center;
+    font-style: normal;
+    font-size: 10px;
+    padding-top: 160px;
+    color: #BDAE1C;
+  }
+
+    .receta{
+      height: 150px;
+      width: 135px;
+      background-color: black;
+      float: left;
+      margin: 100px;
+      margin-left: 200px;
+    }
+
+    .receta.macarrones{
+      background-image: url(img/MACARRONES.jpeg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    .receta.almejas{
+      background-image: url(img/ALMEJAS.jpg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    .receta.tortilla{
+      background-image: url(img/TORTILLA.jpg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    .receta.lasania{
+      background-image: url(img/LALASANA.jpeg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    .receta.costillas{
+      background-image: url(img/COSTILLAS.jpg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    .receta.sopa{
+      background-image: url(img/GALETS.jpeg);
+      background-size: cover;
+      width: 140px;
+      height: 60px;
+    }
+
+    #contrece{
+      height: 500px;
+      width: 950px;
+      margin:0 auto;
+    }
+
+    /*PREPARACIÓN*/
+    h2.INGREDIENTES{
+      font-size: 30px;
+      text-decoration: underline;
+      font-family: monospace;
+    }
+
+    .in{
+      width: 300px;
+      height: 300px;
+      margin: auto;
+
+    }
+
+
+    h1.reseta{
+      font-size: 25px;
+      text-align: center;
+      color: #BDAE1C;
+      margin-top: 40px;
+      font-style: oblique;
+      text-decoration-line: underline;
+    }
+
+    .IMAGENES{
+      background-repeat: no-repeat;
+      width: 300PX;
+      position: relative;
+      margin-top: 100px;
+      margin-left:90px;
+      background:center;
+    }
+
+    .PRECON{
+      height: 1500px;
+      width: 420px;
+      margin: auto;
+    }
+
+
+}
